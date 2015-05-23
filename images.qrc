@@ -11,5 +11,7 @@
         <file alias="ic_star_enabled.png">images/resources/ic_star_enabled.png</file>
         <file alias="ic_unread.png">images/resources/ic_unread.png</file>
         <file alias="ttrss256.png">images/resources/ttrss256.png</file>
+        <file alias="ic_browser_disabled.png">images/resources/ic_browser_disabled.png</file>
+        <file alias="ic_browser_enabled.png">images/resources/ic_browser_enabled.png</file>
     </qresource>
 </RCC>
