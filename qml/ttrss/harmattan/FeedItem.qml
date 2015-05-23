@@ -266,16 +266,15 @@ Page {
         }
 
         ToolIcon {
-            iconSource: "qrc:///images/ic_rss_"
-                        + (rss ? "enabled" : "disabled") + ".png"
+            iconSource: "qrc:///images/ic_browser_"
+                        + (enabled ? "enabled" : "disabled")
+                        + ".png"
             onClicked: {
-                feedItems.togglePublished(function(successful, errorMessage,
-                                                   state) {
-                    // FIXME only update state when this is still the same item
-                    rss = state
-                    // TODO make use of errorMessage
-                })
+                infoBanner.text = qsTr("Open in Web Browser")
+                infoBanner.show()
+                Qt.openUrlExternally(url);
             }
+            enabled: url && (url != "")
         }
 
         ToolIcon {
@@ -310,12 +309,14 @@ Page {
 
         MenuLayout {
             MenuItem {
-                text: qsTr("Open in Web Browser")
-                enabled: url && (url != "")
+                text: qsTr("Publish Item")
                 onClicked: {
-                    infoBanner.text = qsTr("Open in Web Browser")
-                    infoBanner.show()
-                    Qt.openUrlExternally(url);
+                    feedItems.togglePublished(function(successful, errorMessage,
+                                                       state) {
+                        // FIXME only update state when this is still the same item
+                        rss = state
+                        // TODO make use of errorMessage
+                    })
                 }
             }
             MenuItem {

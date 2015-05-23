@@ -269,8 +269,7 @@
     <name>FeedItem</name>
     <message>
         <location filename="../qml/ttrss/harmattan/FeedItem.qml" line="93"/>
-        <location filename="../qml/ttrss/harmattan/FeedItem.qml" line="313"/>
-        <location filename="../qml/ttrss/harmattan/FeedItem.qml" line="316"/>
+        <location filename="../qml/ttrss/harmattan/FeedItem.qml" line="273"/>
         <location filename="../qml/ttrss/sailfish/pages/FeedItem.qml" line="56"/>
         <source>Open in Web Browser</source>
         <translation type="unfinished"></translation>
@@ -282,12 +281,17 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/ttrss/harmattan/FeedItem.qml" line="322"/>
+        <location filename="../qml/ttrss/harmattan/FeedItem.qml" line="312"/>
+        <source>Publish Item</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/ttrss/harmattan/FeedItem.qml" line="323"/>
         <source>Share</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/ttrss/harmattan/FeedItem.qml" line="327"/>
+        <location filename="../qml/ttrss/harmattan/FeedItem.qml" line="328"/>
         <location filename="../qml/ttrss/sailfish/pages/FeedItem.qml" line="68"/>
         <source>Edit Note</source>
         <translation type="unfinished"></translation>
@@ -303,7 +307,7 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/ttrss/harmattan/FeedItem.qml" line="336"/>
+        <location filename="../qml/ttrss/harmattan/FeedItem.qml" line="337"/>
         <location filename="../qml/ttrss/sailfish/pages/FeedItem.qml" line="80"/>
         <source>Assign Labels</source>
         <translation type="unfinished"></translation>
@@ -465,12 +469,12 @@
 <context>
     <name>FeedModel</name>
     <message>
-        <location filename="../qml/ttrss/models/FeedModel.qml" line="87"/>
+        <location filename="../qml/ttrss/models/FeedModel.qml" line="86"/>
         <source>Less than an hour ago</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/ttrss/models/FeedModel.qml" line="90"/>
+        <location filename="../qml/ttrss/models/FeedModel.qml" line="89"/>
         <source>Today</source>
         <translation type="unfinished"></translation>
     </message>
